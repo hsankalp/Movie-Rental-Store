@@ -58,7 +58,5 @@
 		<property name="password" value="password"></property>
 	</bean>
 
-	<bean id="dbUtil" class="com.springmvc.DbUtil" init-method="initialize">
-		<property name="dataSource" ref="dataSource" />
-	</bean>
+	
 </beans>
